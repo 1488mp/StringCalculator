@@ -1,0 +1,69 @@
+Button {
+    -fx-text-fill: rgb(70, 70, 70);
+    -fx-border-color: rgb(128, 128, 128);   
+    -fx-padding: 8 15 10 15;   
+    -fx-font-weight: bold;
+    -fx-font-size: 1.1em;
+    -fx-background-color: white;    
+}
+Button:hover {
+    -fx-border-color: white;    
+    -fx-text-fill: white;
+    -fx-padding: 8 15 10 15;    
+    -fx-background-color: rgb(100, 100, 220);   
+}
+Button:pressed {   
+    -fx-background-color:         
+        rgb(220, 100, 220);   
+}
+
+TextField {    
+    -fx-border-color: rgb(128, 128, 128);    
+    -fx-background-color: white;        
+    -fx-text-fill: rgb(70, 70, 70);    
+}
+TextField:disabled {
+    -fx-opacity: 1;
+}
+AnchorPane {
+    -fx-background-color:   
+    linear-gradient(rgb(198,198,198) 98%, rgb(114,114,114) 98%, rgb(114,114,114) 100%);
+    -fx-border-color: rgb(128, 128, 128); 
+}
+AnchorPane:hover {
+    -fx-background-color:   
+    linear-gradient(rgb(210,210,210) 98%, rgb(144,144,144) 98%, rgb(144,144,144) 100%);
+    -fx-border-color: rgb(128, 128, 128);  
+}
+.CButton {
+    -fx-border-color: white;    
+    -fx-text-fill: white;
+    -fx-padding: 8 15 10 15;    
+    -fx-background-color: rgb(220, 100, 100);
+}
+.CButton:hover {
+    -fx-border-color: white;    
+    -fx-text-fill: white;
+    -fx-padding: 8 15 10 15;    
+    -fx-background-color: rgb(255, 140, 140);
+}
+.CButton:pressed {
+    -fx-border-color: white;    
+    -fx-text-fill: white;
+    -fx-padding: 8 15 10 15;    
+    -fx-background-color: rgb(220, 100, 100);
+}
+.hideButton:hover {      
+    -fx-border-color: white;  
+    -fx-background-color: rgb(135,190,245);
+        
+}
+.closeButton:hover {
+    -fx-border-color: white;  
+    -fx-background-color: rgb(220, 100, 100);   
+}
+.hideButton:pressed {    
+    -fx-border-color: white;  
+    -fx-background-color: rgb(105,160,215);
+    
+}
