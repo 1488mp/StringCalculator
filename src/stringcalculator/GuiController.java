@@ -12,7 +12,7 @@ import javafx.stage.Stage;
 public class GuiController implements Initializable {
     double x, y;    
     public static Stage stage;  
-    
+    //testfield
     @FXML
     private TextField textField;
     
